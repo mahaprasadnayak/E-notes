@@ -1,0 +1,92 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.pic{
+	background-image: url(../images/104.jpg);	
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+    position:absolute;
+    background-size:cover;
+    background-position: fixed;
+    filter: blur(5px);
+}
+	
+
+.login-form{
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: url(../images/black.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+.login-form h1{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-family: "Times New Roman";
+	margin-top: -30px;
+	
+}
+.textfield input{
+	width:90%;
+	height:25px;
+	border-radius: 100px;
+	font-size: 15px;
+	background:none;
+	margin-left: -20px;
+	color: white;
+}
+.textfield input::placeholder{
+	color: white;
+}
+
+form{
+	margin-left: 30px;
+	color: white;
+	text-align: center;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	margin-bottom: 10px;
+	
+}
+.signin-btn{
+	width: 90%;
+	height: 35px;
+	background-color: #ff6448;
+	border-radius: 100px;
+	color: white;
+	font-size: 15px;
+	font-family: Verdana;
+}
+hr{
+	display: inline-block;
+	width: 40%;
+	line-height: 15px;
+}
+.b{
+	font-size: 18px;
+	text-align: center;
+}
+.i{
+	background-image: url(../images/avatar.png);
+	width: 100px;
+	height: 100px;
+	margin-left: 125px;
+	background-size: contain;
+	transform: translate(-10%,-46%);
+	clip-path: circle(70%);
+	background-repeat: no-repeat;
+}

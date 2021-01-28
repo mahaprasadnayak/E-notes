@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-color: cyan;}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<h2>Available Courses</h2>
+
+<div>
+	<a href="c1.html"><button class="button button1" style="vertical-align:middle">C</button></a>
+  	<a href="java1.html"><button class="button button2" style="vertical-align:middle">JAVA</button></a>
+  	<a href="python1.html"><button class="button button3" style="vertical-align:middle">PYTHON</button></a>
+  
+</div>
+
+</body>
+</html>

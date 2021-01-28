@@ -1,0 +1,109 @@
+:root{
+    --darkcolor:#091a36;
+    --firstShade:#8ca7d4;
+    --secondShade:#bdd1f0;
+}
+#shadow{
+    box-shadow: 0px 0px 2px 2px var(--firstShade);
+}
+/* Navbar styling starts here */
+.navbar{
+    background-color:var(--darkcolor);
+    height: auto;
+    padding-top:2.5%;
+}
+.navbar-brand,.nav-link{
+    color:var(--firstShade);
+}
+.navbar-brand:hover,.nav-link:hover,#nav_icons,.fa-bars{
+    color:var(--secondShade);
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-item:hover{
+    border-bottom:2px solid var(--secondShade) !important;
+    color:var(--secondShade);
+}
+#dec-drop,.dropdown-menu{
+    color:var(--darkcolor);
+    background-color:var(--secondShade);
+    padding-bottom: 10px;
+}
+#dec-drop:hover{
+    color:var(--secondShade);
+    background-color:var(--darkcolor);
+}
+/* Navbar styling ends here */
+
+/* Carousel styling starts here */
+#carousel-inner-first{
+    text-align: center;
+    width: 100% !important;
+    height: 600px !important;
+}
+.control-images-prev-first,.control-images-next-first{ 
+    background-color:var(--darkcolor);
+    padding: 6px !important;
+    border-radius: 100%;   
+}
+img[id="slides_images"]{
+    width:100% !important;
+    height: 550px !important;
+    filter: blur(5px);
+}
+#pic-slides{
+    width:100% !important;
+    height: 550px !important; 
+}
+.carousel-caption{
+    color:black !important;
+}
+/* Carousel styling ends here */
+
+/* About styling starts here */
+.card{
+    margin-top:0px !important;
+}
+.card-title{
+    color:var(--darkcolor);
+}
+#header-line{
+    height: 5px;
+    width: 100px;
+    background-color:var(--darkcolor);
+    margin-left: 1.5%;
+    border-radius: 4px;
+}
+/* About styling ends here */
+
+/* Gallery styling starts here */
+#previousGallery{
+    transform: translate(-60px,0px) !important;
+}
+#nextGallery{
+    transform: translate(55px,0px) !important;
+}
+#gallerySpace{
+    padding: 2px;
+}
+/* Gallery styling ends here */
+
+#camp{
+    display: grid !important;
+    grid-template-columns: 20%,80% !important;
+}
+
+footer{
+   background-color: var(--darkcolor);
+   color:var(--firstShade);
+}
+#feedbackBtn{
+    background-color: var(--darkcolor);
+   color:var(--firstShade);
+   border: 2px solid var(--firstShade);
+}
+#feedbackBtn:hover{
+    background-color: var(--firstShade);
+    color: var(--darkcolor);
+}
