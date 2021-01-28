@@ -30,12 +30,12 @@
 
 	<context-param>
 		<param-name>user</param-name>
-		<param-value>mahaprasadnayak268@gmail.com</param-value>
+		<param-value>your@gmail.com</param-value>
 	</context-param>
 
 	<context-param>
 		<param-name>pass</param-name>
-		<param-value>ABCD+1234=01</param-value>
+		<param-value>Your password</param-value>
 	</context-param>
 
 </web-app>
