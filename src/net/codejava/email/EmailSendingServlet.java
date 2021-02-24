@@ -9,13 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * A servlet that takes message details from user and send it as a new e-mail
- * through an SMTP server.
- * 
- * @author www.codejava.net
- * 
- */
+
 @SuppressWarnings("serial")
 @WebServlet("/EmailSendingServlet")
 public class EmailSendingServlet extends HttpServlet {
